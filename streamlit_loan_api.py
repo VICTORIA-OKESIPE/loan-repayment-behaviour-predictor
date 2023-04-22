@@ -134,7 +134,7 @@ if st.button('Predict Loan Repayment Behaviour'):
     if flag[0] == 1:
         st.success("Congratulations to the Applicant! Loan can be Approved.")
     else:
-        st.success("We are sorry! You didn't meet our criteria.")
+        st.success("Unfortunately! The Applicant did not meet the required criteria.")
     #st.success(f'The predicted loan repayment behaviour is ${flag[0]:.2f}')
     #st.success(f'The predicted loan repayment behaviour is {flag[0]}')
 
