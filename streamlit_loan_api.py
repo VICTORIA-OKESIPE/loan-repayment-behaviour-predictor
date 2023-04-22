@@ -132,7 +132,7 @@ age = st.number_input('Enter the Age:', min_value=0, max_value=120, step=1)
 if st.button('Predict Loan Repayment Behaviour'):
     flag = predict(bank_account_type, longitude_gps, latitude_gps, bank_name_clients, employment_status_clients, level_of_education_clients, loanamount, totaldue, termdays, age)
     if flag[0] == 1:
-        st.success("Congratulations! Your loan is Approved.")
+        st.success("Congratulations to the Applicant! Loan can be Approved.")
     else:
         st.success("We are sorry! You didn't meet our criteria.")
     #st.success(f'The predicted loan repayment behaviour is ${flag[0]:.2f}')
