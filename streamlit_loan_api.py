@@ -79,7 +79,7 @@ def predict(bank_account_type, longitude_gps, latitude_gps, bank_name_clients, e
         employment_status_clients = 5
 
 
-    if level_of_education_clients == 'Secondaryllllllllllllllll':
+    if level_of_education_clients == 'Secondarylllllllllllllllll':
         level_of_education_clients = 0
     elif level_of_education_clients == 'Post-Graduate':
         level_of_education_clients = 1
